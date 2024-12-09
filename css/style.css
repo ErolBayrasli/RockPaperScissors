@@ -37,7 +37,7 @@ a:hover {
 
 header {
 	background: #fff;
-	padding: 20px;
+	padding: 1px;
 }
 
 header h1 {
@@ -80,4 +80,8 @@ header h1 {
 
 h1{
   text-align: center;
+ font-size: 50px;
+}
+h2{
+	text-align: center;
 }

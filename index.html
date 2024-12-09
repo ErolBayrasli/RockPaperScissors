@@ -11,33 +11,43 @@
 
     <header><h1>Rock Paper Scissors</h1></header>
 
+    
+
+ 
+
+
+
     <div class="score-board">
       <div id="you" class="badge">You</div>
       <div id="opponent" class="badge">Opponent</div>
-      <span id="user-score">0</span> : <span id="computer-score">0</span>
+      <span id="user-pick">0</span> : <span id="computer-pick">0</span>
     </div>
     <div class="row">
       <div class="col">
         <h1>Pick Your Fate</h1>
       </div>
     </div>
-  
+<div>
+    <h2>Computer: <span id="computer-choice"></span></h2>
+    <h2>You: <span id="user-choice"></span></h2>
+    <h2>Result: <span id="result"></span></h2>
+  </div>
 <div class="row">
 <!-- In here I am going to put the result when you pick a signal -->
 </div>
 <br>
 <br>
-    <div class="img-fluid row">
+    <div class="img row">
       <div class="col">
-      <img src="img/fist.png" alt="">
+      <img id="rock" src="img/fist.png" alt="">
       </div>
       <div class="col"></div>
       <div class="col">
-        <img src="img/hello.png" alt="">
+        <img id="paper" src="img/hello.png" alt="">
       </div>
       <div class="col"></div>
       <div class="col">
-        <img src="img/scissors.png" alt="">
+        <img id="scissors" src="img/scissors.png" alt="">
       </div>
     </div>
 
